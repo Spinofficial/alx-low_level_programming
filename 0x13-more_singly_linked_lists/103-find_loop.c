@@ -6,7 +6,7 @@
  *
  * Return: The address of the node where the list is loop start or NULL
  */
-listint_t find_listint_t_loop(listint_t *head)
+listint_t *find_listint_loop(listint_t *head)
 {
 	listint_t *slow = head;
 	listint_t *fast = head;
